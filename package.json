@@ -8,13 +8,17 @@
   },
   "dependencies": {
     "@volar/experimental": "latest",
-    "vue": "next"
+    "@vue/composition-api": "latest",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "latest",
+    "vuex-i18n": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "latest",
     "@vue/compiler-sfc": "latest",
-    "typescript": "latest",
+    "typescript": "4.3.5",
     "vite": "latest",
+    "vite-plugin-vue2": "latest",
     "vue-tsc": "latest"
   }
 }

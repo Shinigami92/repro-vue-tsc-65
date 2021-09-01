@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import * as volar from '@volar/experimental/compiler';
+// import * as volar from "@volar/experimental/compiler";
+import { defineConfig } from "vite";
+import { createVuePlugin } from "vite-plugin-vue2";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(volar.getVuePluginOptionsForVite())],
-})
+  plugins: [createVuePlugin(/*volar.getVuePluginOptionsForVite()*/)],
+});
