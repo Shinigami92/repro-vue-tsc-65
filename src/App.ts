@@ -1,6 +1,6 @@
+import HelloWorld from "@/components/HelloWorld.vue";
 import type { Ref } from "@vue/composition-api";
 import { defineComponent, ref } from "@vue/composition-api";
-import HelloWorld from "./components/HelloWorld.vue";
 
 export default defineComponent({
   name: "App",

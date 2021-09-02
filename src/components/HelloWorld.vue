@@ -2,6 +2,8 @@
 div
   h1 {{ msg }}
 
+  h2(v-if="thing") {{ msg }}
+
   p.
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>

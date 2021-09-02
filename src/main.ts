@@ -6,7 +6,7 @@ import VueCompositionAPI from "@vue/composition-api";
 import VuexI18n from "vuex-i18n";
 
 // Vuetify
-// import vuetify from "./plugins/vuetify";
+import vuetify from "./plugins/vuetify";
 
 import App from "./App.vue";
 
@@ -20,7 +20,7 @@ Vue.i18n.set(defaultLanguage);
 Vue.config.productionTip = false;
 
 new Vue({
-  //   vuetify,
+  vuetify,
   //   store,
   render: (h) => h(App),
 }).$mount("#app");

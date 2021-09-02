@@ -25,7 +25,7 @@ v-menu(offset-y)
   hello-world(msg="Hi")
 </template>
 
-<script lang="ts" src="./App.ts"></script>
+<script lang="ts" src="./App"></script>
 
 <style>
 #app {

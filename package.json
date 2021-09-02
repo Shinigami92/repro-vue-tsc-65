@@ -11,14 +11,22 @@
     "@vue/composition-api": "latest",
     "vue": "^2.6.14",
     "vue-template-compiler": "latest",
+    "vuetify": "~2.5.8",
     "vuex-i18n": "latest"
   },
   "devDependencies": {
+    "@mdi/font": "~5.9.55",
+    "@types/node": "latest",
     "@vitejs/plugin-vue": "latest",
     "@vue/compiler-sfc": "latest",
-    "typescript": "4.3.5",
+    "roboto-fontface": "~0.10.0",
+    "typeface-roboto-mono": "~1.1.13",
+    "typescript": "4.4.2",
     "vite": "latest",
     "vite-plugin-vue2": "latest",
     "vue-tsc": "latest"
+  },
+  "resolutions": {
+    "vscode-vue-languageservice": "0.27.12-alpha.2"
   }
 }
