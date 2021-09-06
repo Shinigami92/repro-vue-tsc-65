@@ -2,6 +2,7 @@
   "name": "volar-starter",
   "version": "0.0.0",
   "scripts": {
+    "clean": "rm -Rf yarn.lock dist node_modules",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
@@ -9,24 +10,25 @@
   "dependencies": {
     "@volar/experimental": "latest",
     "@vue/composition-api": "latest",
-    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
     "vue-template-compiler": "latest",
-    "vuetify": "~2.5.8",
+    "vue": "^2.6.14",
+    "vuetify": "^2.5.8",
     "vuex-i18n": "latest"
   },
   "devDependencies": {
-    "@mdi/font": "~5.9.55",
+    "@mdi/font": "latest",
     "@types/node": "latest",
     "@vitejs/plugin-vue": "latest",
     "@vue/compiler-sfc": "latest",
-    "roboto-fontface": "~0.10.0",
-    "typeface-roboto-mono": "~1.1.13",
-    "typescript": "4.4.2",
+    "roboto-fontface": "latest",
+    "typeface-roboto-mono": "latest",
+    "typescript": "^4.4.2",
     "vite": "latest",
     "vite-plugin-vue2": "latest",
     "vue-tsc": "latest"
   },
   "resolutions": {
-    "vscode-vue-languageservice": "0.27.12-alpha.2"
+    "vscode-vue-languageservice": "0.27.15"
   }
 }

@@ -8,6 +8,8 @@ import VuexI18n from "vuex-i18n";
 // Vuetify
 import vuetify from "./plugins/vuetify";
 
+import { ROUTER } from "./router";
+
 import App from "./App.vue";
 
 Vue.use(VueCompositionAPI);
@@ -22,5 +24,6 @@ Vue.config.productionTip = false;
 new Vue({
   vuetify,
   //   store,
+  router: ROUTER,
   render: (h) => h(App),
 }).$mount("#app");
